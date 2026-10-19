@@ -1,17 +1,26 @@
-# momflex
+# Velora
+# Velora
 
-A new Flutter project.
+Premium car marketplace app UI built with Flutter.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+| Onboarding | Home | Car Details |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/onboarding.png" width="240"/> | <img src="docs/screenshots/home.png" width="240"/> | <img src="docs/screenshots/details.png" width="240"/> |
 
-A few resources to get you started if this is your first Flutter project:
+| Wallet | Settings |
+|:---:|:---:|
+| <img src="docs/screenshots/wallet.png" width="240"/> | <img src="docs/screenshots/settings.png" width="240"/> |
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Features
+- Onboarding flow with native splash
+- Brand filter and car search
+- Car details with specs and favorites
+- Wallet, transactions and notifications
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run
+```bash
+flutter pub get
+flutter run
+```
